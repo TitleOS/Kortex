@@ -1,0 +1,24 @@
+{
+  "name": "kortex",
+  "version": "1.0.0",
+  "description": "Kortex is a JS library that allows mental interfacing with the Xbox One/Series family of consoles via a Neurosity Notion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "notion",
+    "xbox",
+    "xboxone",
+    "xboxseriesx",
+    "neurosity",
+    "xdk"
+  ],
+  "author": "TitleOS",
+  "license": "MIT",
+  "dependencies": {
+    "@neurosity/notion": "^5.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
